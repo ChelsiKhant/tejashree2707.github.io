@@ -1,0 +1,11 @@
+body
+{
+	margin:0;
+	padding:0;
+	background:url(clock.jpg);
+	background-size:cover;
+	background-position:center;
+	font-family: comic sans ms;
+	height: 700px;
+   width: 600px;
+}

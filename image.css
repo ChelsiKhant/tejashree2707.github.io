@@ -1,0 +1,30 @@
+body{
+	margin:0;
+	padding:0;
+	background:linear-gradient(
+		45deg,
+		pink,
+		grey);
+	background-position:center;
+	font-family: comic sans ms;
+}
+h1{
+	text-align:center;
+	color: purple;
+	margin: 30px 0 50px;
+	text-shadow: 0px 10px 5px grey;
+}
+.gallery{
+	margin: 10px;
+}
+.gallery img
+{	
+	width: 230px;
+	height:230px;
+	padding:5px;
+	filter: grayscale(100%);
+	transition: 1%
+}
+.gallery img:hover{
+	filter: grayscale(0);
+}
